@@ -1,5 +1,5 @@
 pipeline {
-     agent { label 'docker' }
+     agent { label 'n' }
      stages {
           stage("clone stage") {
                steps {
@@ -13,3 +13,4 @@ pipeline {
           }
      }
 }
+ode1
