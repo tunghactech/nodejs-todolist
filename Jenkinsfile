@@ -1,5 +1,5 @@
 pipeline {
-     agent { label '!master' }
+     agent { label 'jenkin_slave' }
      stages {
           stage("clone stage") {
                steps {
